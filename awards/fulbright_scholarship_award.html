@@ -116,12 +116,14 @@ section::after {
 }
 
 /* Style the footer */
+/*
 footer {
   background-color: #777;
   padding: 10px;
   text-align: center;
   color: white;
 }
+*/
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
@@ -168,23 +170,42 @@ footer {
 </center>
 
 
+<!-- the start of footer-->
 
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer {
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  height: ;            /* Footer height */
+}
+</style>
+
+<footer>
   <br>
   <br>
-  <br>
-  <br>
-
-<hr>
-
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
-
-
+  <hr>
 <h4 align="center">&copy 2022 Copyright by Maxat Kassen</h4>
+</footer>
+
+<!-- end of footer-->
 </div>
 </body>
 </html>
