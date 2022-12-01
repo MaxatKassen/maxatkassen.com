@@ -113,15 +113,18 @@
   content: "";
   display: table;
   clear: both;
+  float: left;
   }
 
   /* Style the footer */
+  /*
   footer {
   background-color: #777;
   padding: 10px;
   text-align: center;
   color: white;
   }
+  */
 
   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
   @media (max-width: 600px) {
@@ -138,9 +141,8 @@
   }
 
   </style>
-
-  <center>
-  <section>
+<center>
+    <section>
     <nav>
 
     </nav>
@@ -157,7 +159,7 @@
 
 <h3 align="left">Journal Articles (Impact Factor):</h3>
 <ol class="demopara" align="justify">
-    <li>Kassen, M. (2022). Blockchain and e-government innovation: Automation of public information processes. Information Systems, 103/101862. Impact factor: 3.18 (Web of Science). CiteScore: 7.1 (Scopus).</li><br>
+  <li>Kassen, M. (2022). Blockchain and e-government innovation: Automation of public information processes. Information Systems, 103/101862. Impact factor: 3.18 (Web of Science). CiteScore: 7.1 (Scopus).</li><br>
   <li>Kassen, M. (2021). Understanding decentralized civic engagement: Focus on peer-to-peer and blockchain-driven perspectives on e-participation. Technology in Society, 66/101650. Impact factor: 6.879 (Web of Science). CiteScore: 6.5 (Scopus).</li><br>
   <li>Kassen, M. (2021). Understanding motivations of citizens to reuse open data: open government data as a philanthropic movement. Innovation: Organization & Management, 23(1), pp.44-70. Impact factor: 2.453 (Web of Science). CiteScore: 3.8 (Scopus).</li><br>
   <li>Kassen, M. (2020). E-participation actors: understanding roles, connections, partnerships. Knowledge Management Research & Practice, 18(1), pp. 16-37. Impact factor: 3.054 (Web of Science). CiteScore: 4.7 (Scopus).</li><br>
@@ -180,14 +182,41 @@
 </p>
 </article>
 </section>
-</center>
-<hr>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
 
+<!-- the start of footer-->
 
+<style>
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer {
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  height: ;            /* Footer height */
+}
+</style>
+
+<footer>
+  <hr>
 <h4 align="center">&copy 2022 Copyright by Maxat Kassen</h4>
+</footer>
+
+<!-- end of footer-->
+
 </body>
 </html>
