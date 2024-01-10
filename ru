@@ -47,7 +47,7 @@
   <body>
 
     <div class="topnav">
-      <a class="active" href="/index_ru.html">Главная</a>
+      <a class="active" href="/ru">Главная</a>
       <a href="profile_ru.html">Научный профиль</a>
       <a href="/publications_ru.html">Публикации</a>
       <a href="/awards_ru.html">Награды</a>
